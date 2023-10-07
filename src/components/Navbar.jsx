@@ -9,7 +9,7 @@ function Navbar() {
   let navigate = useNavigate();
   const handleClick = () => {
     if (transaction_status == false) {
-      navigate("/");
+      navigate("/DisP-Track/");
     } else {
       toast.warning("Transaction in progress", {
         position: "top-center",

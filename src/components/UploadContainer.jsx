@@ -57,7 +57,7 @@ function UploadContainer() {
 
   return (
     <>
-      {selectedFile && <Navigate to="/upload"></Navigate>}
+      {selectedFile && <Navigate to="/DisP-Track/upload"></Navigate>}
 
       <div
         className={containerClassName}

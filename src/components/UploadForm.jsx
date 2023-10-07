@@ -19,7 +19,7 @@ function UploadForm() {
   const [tick, setTick] = useState(false);
 
   if (fileInfo == undefined) {
-    return <Navigate to="/" />;
+    return <Navigate to="/DisP-Track/" />;
   }
 
   const { name, size, type, lastModifiedDate } = fileInfo;
@@ -71,7 +71,7 @@ function UploadForm() {
   };
 
   const helperHome = () => {
-    navigate("/");
+    navigate("/DisP-Track/");
   };
 
   const handleSubmit = async (event) => {
